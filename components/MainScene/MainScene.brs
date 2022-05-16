@@ -72,6 +72,7 @@ function parseResult(responseInfo as object)
                 title: item.Title
                 year: item.year
                 uriPoster: item.poster
+                config: m.config.resultItemConfig
             })
         end for
         return result
