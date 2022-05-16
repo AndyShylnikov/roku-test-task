@@ -22,24 +22,24 @@
     },
     "searchButtons": {
       "translation": [
-        580,
+        600,
         30
       ],
       "buttons": [
         "Search by series",
-        "Search by episodes"
+        "Search by movies"
       ]
     },
     "result": {
       "visible": false,
       "translation": [
-        580,
+        650,
         200
       ],
       "itemComponentName": "ResultRowListItem",
       "numRows": 1,
       "itemSize": [
-        628,
+        1200,
         213
       ],
       "rowHeights": [
