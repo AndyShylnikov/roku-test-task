@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<component name="ResultRowListData"
+           extends="ContentNode">
+
+    <interface>
+        <field id="title"
+               type="string"/>
+        <field id="year"
+               type="string"/>
+        <field id="uriPoster"
+               type="string"/>
+        <field id="config"
+               type="assocarray"/>
+    </interface>
+
+</component>

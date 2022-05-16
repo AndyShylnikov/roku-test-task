@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<component name="ResultRowListItem"
+           extends="Group">
+
+    <children>
+        <LayoutGroup layoutDirection="vert"
+                     vertAlignment="top"
+                     itemSpacings="20"
+                     translation="[0,0]">
+            <Poster id="poster"/>
+            <Label id="title"/>
+            <Label id="year"/>
+        </LayoutGroup>
+    </children>
+
+    <interface>
+        <field id="itemContent"
+               type="node"
+               onChange="onContentChanged"/>
+    </interface>
+
+    <script type="text/brightscript"
+            uri="./ResultRowListItem.brs"/>
+    <script type="text/brightscript"
+            uri="pkg:/components/Utils/utils.brs"/>
+
+
+</component>
