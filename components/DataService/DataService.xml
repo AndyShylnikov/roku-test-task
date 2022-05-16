@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<component name="DataService" extends="Task">
+	<script type="text/brightscript" uri="./DataService.brs"/>
+	<script type="text/brightscript" uri="pkg:/components/Utils/utils.brs"/>
+	<interface>
+		<field id="url" type="string"/>
+		<field id="responseInfo" type="assocarray" value="{}"/>
+	</interface>
+</component>
