@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<component name="MainScene" extends="Scene">
+	<children>
+		<Rectangle id="background">
+			<Label id="searchLabel"/>
+			<MiniKeyboard id="keyboard"/>
+			<ResultRowList id="resultRow"/>
+			<ButtonGroup id="searchButtons"/>
+			<Label id="utilLabel"/>
+		</Rectangle>
+	</children>
+	<interface>
+		<function name="initiate"/>
+	</interface>
+
+	<script type="text/brightscript" uri="./MainScene.brs"/>
+	<script type="text/brightscript" uri="pkg:/components/Utils/utils.brs"/>
+
+</component>
